@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: navy;
+    border-bottom: navy 10px solid;
+    line-height: 4;
+}
+i{
+    margin: 20px;
+}
+
+#name {
+    width: 250px;;
+}
+#headerContainer{
+    margin-bottom: 20px;
+}
+#container {
+    margin: 0 auto;
+    background-color: rgb(174, 202, 255);
+    padding-top: 30px;
+    height: 70vh;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    color:navy;
+   overflow: auto;
+}
+
+#addButton, #checkInButton, #vipButton, #name {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+    height: 30px;
+}
+#addButton, #checkInButton, #vipButton {
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+    width: 65px;
+}
+#addButton:hover {
+    background: orange;
+    color: navy;
+    font-weight: bold;
+    transition: ease-in 0.2s;
+}
+#addButton:active {
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+#checkInButton:hover {
+    background: green;
+    transition: ease-in 0.2s;
+}
+#checkInButton:active {
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+    transition: ease-in 0.2 s;
+}
+#vipButton:hover {
+    background: green;
+    transition: ease-in 0.2s;
+}
+#vipButton:active {
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+    transition: ease-in 0.2 s;
+}
+
+#list {
+    margin: 30px;
+    text-align: center;
+    line-height: 2.5;
+}
+li{
+    border-bottom: solid 1px rgb(22, 22, 138);
+    color: black;
+    font-weight: bold;
+}
+#textContainer {
+    margin-top: 20px;
+}
+h5{
+    color: rgb(160, 5, 5);
+}
+
